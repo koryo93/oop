@@ -31,3 +31,9 @@ define("SERVER_OS", "Windows");
 
 print getServerConfig("NAME"); // localhost가 출력된다.
 
+define("SERVER_NAME", "localhost");
+define("SERVER_IP", "8.8.8.8");
+define("SERVER_OS", "Windows");
+
+print getServerConfig("NAME"); // localhost가 출력된다.
+
